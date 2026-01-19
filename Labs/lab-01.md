@@ -9,42 +9,10 @@ In this exercise, you will gain hands-on experience setting up **Microsoft Found
 ## Objectives
 
 In this exercise, you will complete the following tasks:
-- Task 1: Create Azure AI Search
-- Task 2: Set up Microsoft Foundry
 
-## Task 1: Create Azure AI Search
+- Task 1: Set up Microsoft Foundry
 
-In this task ,you will create an Azure AI Search resource.
-
-1. On the Azure portal search bar, search for **AI Search (1)** and select **AI Search (2)** from the results.
-
-    ![](./media/new/c1.png)
-
-1. From the left navigation pane, ensure **AI Search (1)** is selected and then click on **+ Create (2)** from the top menu bar.
-
-    ![](./media/new/c2.png)
-
-1. On the **Create a search service** page, provide the following details and then click on **Review+create (6)**:
-
-    - **Subscription:** Leave the default one **(1)**
-
-    - **Resource group:** Select **ai-foundry-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
-
-    - **Service name:** Enter **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
-
-    - **Region:** Select **<inject key="Region" enableCopy="false"></inject> (4)** 
-
-    - Pricing tier: Select **Standard (5)**
-
-        >**Note:** In case you do not see the Standard tier, it means that the region selected does not have the Standard tier available right now. Please select another region and deploy the resource.
-
-      ![](./media/new/aisearch-1401.png)
-
-1. Click **Create** to deploy the search service.
-
-    ![](./media/new/aisearch-1501.png)
-
-## Task 2: Set up Microsoft Foundry
+## Task 1: Set up Microsoft Foundry
 
 In this task, you will explore different flow types in Microsoft Foundry by creating a AI hub through Azure portal, then deploying the GPT-4o model, and testing its capabilities in the playground from the Microsoft Foundry.
 
@@ -52,9 +20,9 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     ![](./media/new/a1.png)
 
-1. From the left navigation pane, expand **Use with Foundry (1)**, select **AI Hubs (2)**, open the **Create (3)** drop-down, and click **Hub (4)**.
+1. From the left navigation pane, expand **Use with Foundry**, select **Foundry (1)**, open the **Create (2)**.
 
-    ![](./media/new/a2.png)
+    ![](./media/new/createfound.png)
 
 1. On the **Azure AI hub** page, provide the following details and then click on **Review+create (5)**:
 
@@ -67,19 +35,19 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     - **Name:** Enter **ai-foundry-hub-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
 
-      ![](./media/new/a3.png)
+      ![](./media/new/foundryr.png)
 
 1. Once the Validation passed, click on **Create**.
 
-    ![](./media/new/a4.png)
+    ![](./media/new/createfoundry.png)
 
 1. Once the deployment is completed, click on **Go to resource**.
 
-    ![](./media/new/a5.png)
+    ![](./media/new/gotofoundry.png)
 
-1. From the **Overview** page of the **Azure AI hub**, click **Launch Azure AI Foundry** to open the Foundry workspace.
+1. From the **Overview** page of the **Microsoft Foundry**, click **Go to Foundry Portal** to open the Foundry workspace.
 
-    ![](./media/new/a6.png)
+    ![](./media/new/gotoportal.png)
 
 1. From the left navigation pane, select **Model + endpoints (1)**, then click on **+ Deploy model (2)** drop-down and click **Deploy base model (3)**.
 
