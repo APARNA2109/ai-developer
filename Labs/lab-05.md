@@ -119,6 +119,38 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 <validation step="aba3f1c2-bf55-4ca3-baf6-fcaa280552fa" />
 
+## Task 1: Create Azure AI Search
+
+In this task ,you will create an Azure AI Search resource.
+
+1. On the Azure portal search bar, search for **AI Search (1)** and select **AI Search (2)** from the results.
+
+    ![](./media/new/c1.png)
+
+1. From the left navigation pane, ensure **AI Search (1)** is selected and then click on **+ Create (2)** from the top menu bar.
+
+    ![](./media/new/c2.png)
+
+1. On the **Create a search service** page, provide the following details and then click on **Review+create (6)**:
+
+    - **Subscription:** Leave the default one **(1)**
+
+    - **Resource group:** Select **ai-foundry-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
+
+    - **Service name:** Enter **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
+
+    - **Region:** Select **<inject key="Region" enableCopy="false"></inject> (4)** 
+
+    - Pricing tier: Select **Standard (5)**
+
+        >**Note:** In case you do not see the Standard tier, it means that the region selected does not have the Standard tier available right now. Please select another region and deploy the resource.
+
+      ![](./media/new/aisearch-1401.png)
+
+1. Click **Create** to deploy the search service.
+
+    ![](./media/new/aisearch-1501.png)
+
 ## Task 2: Create a Semantic Search Plugin to query the AI Search Index
 
 In this task, you will explore different flow types in Microsoft Foundry by creating a Semantic Search Plugin to query the AI Search Index for enhanced retrieval capabilities.
