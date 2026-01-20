@@ -20,23 +20,23 @@ In this task, you will explore different flow types in Microsoft Foundry by adju
 
 1. Navigate back to the **Microsoft Foundry** portal in your browser.
 
-1. From the left navigation pane, click on **Guardrails + controls (1)**. Select **Content filters (2)** tab from the top menu bar and click **+ Create content filter (3)**.
+1. From the left navigation pane, click on **Build (1)**. Select **Gaurdrails (2)** tab from the top menu bar and click **Create (3)**.
 
-    ![](./media/new/y1.png)
+    ![](./media/new/creategaurdrails.png)
 
 1. On the **Add basic information** blade, enter the Name **AggressiveContentFilter (1)** and click on **Next (2)**:
 
-     ![](./media/new/y2.png)
+     ![](./media/new/addmodelsgaurd.png)
 
 1. Leave the **Input filter** and **Output filter** blade to default and click on **Next**.
 
 1. On the **Apply filter to deployments (optional)** page, select **both deployments (1)** and click **Next (2)** to continue.
 
-    ![](./media/new/E6T1S5-1401.png)
+    ![](./media/new/selectmodel.png)
 
 1. If you get a **Replacing existing content filter** warning, click on **Replace**.
 
-    ![](./media/new/y3.png)
+    ![](./media/new/modelnext.png)
 
 1. Review the content filter configuration and click **Create filter** to complete the setup.
 
