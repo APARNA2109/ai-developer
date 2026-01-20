@@ -22,52 +22,64 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
 1. From the left navigation pane, expand **Use with Foundry**, select **Foundry (1)**, open the **Create (2)**.
 
-    ![](./media/new/createfound.png)
+    ![](./media/createfound.png)
 
-1. On the **Azure AI hub** page, provide the following details and then click on **Review+create (5)**:
+1. On the **Azure AI hub** page, provide the following details and then click on **Review+create (6)**:
 
     - **Subscription**: Leave the default one **(1)**
 
     - **Resource group:** Select **ai-foundry-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
 
-    - **Region:** Select **<inject key="Region" enableCopy="false"></inject> (3)**
+    - **Name:** Select **ai-foundry-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
         >**Note:** Ensure to select the same region used while creating the Azure AI Search resource.
 
-    - **Name:** Enter **ai-foundry-hub-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
+    - **Region:** Enter **<inject key="Region" enableCopy="false"></inject> (4)**
 
-      ![](./media/new/foundryr.png)
+    - **Default project name:** Enter **ai-foundry-project-<inject key="Deployment ID" enableCopy="false"></inject>**
+
+      ![](./media/foundryr.png)
 
 1. Once the Validation passed, click on **Create**.
 
-    ![](./media/new/createfoundry.png)
+    ![](./media/createfoundry.png)
 
 1. Once the deployment is completed, click on **Go to resource**.
 
-    ![](./media/new/gotofoundry.png)
+    ![](./media/gotofoundry.png)
 
 1. From the **Overview** page of the **Microsoft Foundry**, click **Go to Foundry Portal** to open the Foundry workspace.
 
-    ![](./media/new/gotoportal.png)
+    ![](./media/gotoportal.png)
 
-1. From the left navigation pane, select **Model + endpoints (1)**, then click on **+ Deploy model (2)** drop-down and click **Deploy base model (3)**.
+1. On the Welcome page click on **Build** from the top navigation pane.s
 
-    ![](./media/new/a8.png)
+    ![](./media/new/foundryoverview.png)
 
-1. Search for **gpt-4o (1)**, select the **gpt-4o** model **(2)**, and click on **Confirm (3)**.
+1. From the left navigation pane, select **Models(1)**, then click on **Deploy base model (2)**.
 
-    ![](./media/new/a9.png)
+    ![](./media/new/basemodel.png)
+
+1. Search for **gpt-4o (1)**, select the **gpt-4o (2s)** model.
+
+    ![](./media/new/4o.png)
+
+1. Select the **Deploy (1)** drop-down and select **Custom settings (2)**.
+
+    ![](./media/new/custom.png)
 
 1. On the **Deploy gpt-4o** blade, click on **Customize** and configure the required deployment settings as specified below:
 
-    - **Deployment type**: Choose **Standard (1)** 
+    - **Deployment name:** Keep deafult **gpt-40 (1)**
+
+    - **Deployment type**: Choose **Standard (2)** 
     
-    - **Model version**: Select **2024-08-06 (Default) (2)**
+    - **Model version**: Select **2024-08-06 (3)**
 
-    - **Tokens per Minute Rate Limit**: Limit to **50K (3)** (You can use keyboard arrows to increase or decrease the value)
+    - **Tokens per Minute Rate Limit**: Limit to **50K (4)** (You can use keyboard arrows to increase or decrease the value)
 
-    - Click on **Connect and deploy (4)**
+    - Click on **Deploy (5)**
 
-      ![](./media/new/b1.png) 
+      ![](./media/new/4oconfig.png) 
 
 1. From the top, click on **Microsoft Foundry**.
 
