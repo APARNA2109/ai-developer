@@ -12,7 +12,9 @@ In this exercise, you will complete the following tasks:
 
 - Task 1: Deploy a Text Embedding model
 
-- Task 2: Create a Semantic Search Plugin to query the AI Search Index
+- Task 2: Create Azure AI Search
+
+- Task 3: Create a Semantic Search Plugin to query the AI Search Index
 
 ## Task 1: Deploy a Text Embedding model
 
@@ -119,7 +121,7 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 <validation step="aba3f1c2-bf55-4ca3-baf6-fcaa280552fa" />
 
-## Task 1: Create Azure AI Search
+## Task 2: Create Azure AI Search
 
 In this task ,you will create an Azure AI Search resource.
 
@@ -151,7 +153,7 @@ In this task ,you will create an Azure AI Search resource.
 
     ![](./media/new/aisearch-1501.png)
 
-## Task 2: Create a Semantic Search Plugin to query the AI Search Index
+## Task 3: Create a Semantic Search Plugin to query the AI Search Index
 
 In this task, you will explore different flow types in Microsoft Foundry by creating a Semantic Search Plugin to query the AI Search Index for enhanced retrieval capabilities.
 
