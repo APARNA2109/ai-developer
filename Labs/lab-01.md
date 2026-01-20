@@ -51,6 +51,10 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     ![](./media/gotoportal.png)
 
+1. On the **Microsoft Foundry** overview page **toggle on** the **New Foundry** to explore the new foundry.
+
+    ![](./media/new/newtoggle.png)
+
 1. On the Welcome page click on **Build** from the top navigation pane.s
 
     ![](./media/new/foundryoverview.png)
@@ -81,9 +85,9 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
       ![](./media/new/4oconfig.png) 
 
-1. From the top, click on **Microsoft Foundry**.
+1. From the top left corner navigate back to **Models** page.
 
-    ![](./media/new/b2.png) 
+    ![](./media/new/navigateback.png) 
 
 1. Select the listed **aifoundryhubxxxxxx** resource to continue working in **Microsoft Foundry**.
 
@@ -91,17 +95,13 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
      >**Note**: **xxxxx** refers to randomly generated suffix.
 
-1. From left navigation pane, select **Model + endpoints (1)** from the **My assets** section, then select **gpt-4o (2)** model and the click on **Open in Playground (3)**.
+1. From Models page, select **gpt-4o (1)** model and the click on **Open in Playground (2)**.
 
-    ![](./media/new/b4.png)
+    ![](./media/new/openplay.png)
 
-1. In the Setup section, replace the existing text with `Extract the United States Postal Service (USPS) formatted address from the following email` **(1)** then click on **Apply changes (2)**. Using this you can explore the capabilities of Azure OpenAI.
+1. In the Instruction section, replace the existing text with `Extract the United States Postal Service (USPS) formatted address from the following email`. Using this you can explore the capabilities of Azure OpenAI.
 
-    ![](./media/new/b5.png)
-
-1. Click **Continue** to update the system message and start a new chat session.
-
-    ![](./media/new/b6.png)
+    ![](./media/new/instructions.png)
 
 1. Provide the below mail in the chat **(1)** then click on **Send (2)** to identify and extract the postal address from the following email:
 
@@ -121,11 +121,11 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
     Marketing Director BrightEdge Marketing
     ```
 
-    ![](./media/new/b7.png)
+    ![](./media/new/subject.png)
     
 1. You will receive a response similar to the one shown below:
 
-    ![](./media/new/b8.png)
+    ![](./media/new/output.png)
 
   > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next  task. 

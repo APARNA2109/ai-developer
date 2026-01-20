@@ -22,25 +22,25 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 1. From the left navigation pane, select **Model + endpoints (1)**, then click on **+ Deploy model (2)** drop-down and click **Deploy base model (3)**.
 
-    ![](./media/new/E5T1S2-1401.png)
+    ![](./media/new/newbase.png)
 
-1. Search for **text-embedding-ada-002 (1)**, select **text-embedding-ada-002 (2)** model, and click on **Confirm (3)**.
+1. Search for **text-embedding-ada-002 (1)**, select **text-embedding-ada-002 (2)** model..
 
-    ![](./media/new/w2.png)
+    ![](./media/new/ada002.png)
 
-1. Click on **Deploy** to the model.
+1. Click on **Deploy (1)** drop-down and select **Default settings (2)** to deploy the model.
 
-    ![](./media/new/w3.png)
+    ![](./media/new/adadsteps.png)
 
-1. Navigate back to **Models+endpoints (1)**, select **gpt-4o (2)**, and click on **Open in playground (3)**.
+1. Navigate back to **Models** pages, select **gpt-4o (1)**, and click on **Open in playground (2)**.
 
-    ![](./media/new/w4.png)
+    ![](./media/new/gptplay.png)
 
 1. Scroll down in the **Setup** section and expand **Add your data (1)** and select **+ Add a data source (2)**.
 
-    ![](./media/new/w5.png)
+    ![](./media/new/uploadfiles.png)
 
-1. On the **Select or add data source**blade, provide the following details:
+1. Click on the **Upload files**, provide the following details:
 
     - Select data source: Select **Upload files (preview) (1)**
 
@@ -50,7 +50,7 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
     - Click **Turn on CORS (4)** to grant access.
 
-      ![](./media/new/w6.png)
+      ![](./media/new/browsefiles.png)
 
     - Select Azure AI Search resource: Select **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (5)** 
 
@@ -62,15 +62,15 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
     - Then click on **Next (9)**
 
-      ![](./media/new/v1.png)
+      ![](./media/new/attach.png)
   
 1. Click **Browse for a file** to upload documents.
 
-    ![](./media/new/w8.png)
+    ![](./media/new/)
   
 1. Navigate to `C:\LabFiles\ai-developer\Dotnet\src\BlazorAI\data\` and select **employee_handbook.pdf (1).** Click on **Open (2)**.
 
-    ![](./media/image_087.png)
+    ![](./media/new/)
 
 1. Click on **Upload files** to upload the files.
 
