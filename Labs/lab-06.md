@@ -40,7 +40,7 @@ In this task, you will explore different flow types in Microsoft Foundry by adju
 
 1. Review the content filter configuration and click **Create filter** to complete the setup.
 
-    ![](./media/new/y4.png)
+    ![](./media/new/contentname.png)
 
 ## Task 2: Filter specific words or patterns
 
@@ -48,27 +48,27 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
 
 1. From the top menu bar, select **Blocklists (Preview) (1)** tab and then click **+ Create blocklist (2)**.
 
-    ![](./media/new/y5.png)
+    ![](./media/new/createblocklist.png)
     
-1. On the **Create a blocklist** blade, specify the following configuration options and click on **Create blocklist (3)**.
+1. On the **Create a blocklist** blade, specify the following configuration options and click on **Create (3)**.
 
     - **Name**: Enter **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject> (1)**
 
     - **Description**: `This is a custom blocklist.` **(2)**
 
-      ![](./media/new/y6.png)
+      ![](./media/new/createblock.png)
 
 1. Click on **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject>** created.
 
-    ![](./media/new/y7.png)
+    ![](./media/new/editblock.png)
 
-1. Fromt the top menu bar, click on **+ Add new term**.
+1. Fromt the top menu bar, click on **Add term**.
 
-    ![](./media/new/y8.png)
+    ![](./media/new/addterm.png)
 
 1. Enter **password (1)** as the term, select the type **Exact Match (2)** or **Regex** as required, and click **Add term (3)** to save it.
 
-    ![](./media/new/y9.png)
+    ![](./media/new/addingterm.png)
 
 1. Click on **+ Add new term** again.   
 
@@ -89,7 +89,7 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
     - poker
     - betting
 
-      ![](./media/new/y12.png)
+      ![](./media/new/addcreate.png)
 
 ## Summary
 
