@@ -24,21 +24,19 @@ In this task, you will explore different flow types in Microsoft Foundry by adju
 
     ![](./media/new/creategaurdrails.png)
 
-1. On the **Add basic information** blade, enter the Name **AggressiveContentFilter (1)** and click on **Next (2)**:
+1. Select **Add models** 
 
      ![](./media/new/addmodelsgaurd.png)
 
-1. Leave the **Input filter** and **Output filter** blade to default and click on **Next**.
-
-1. On the **Apply filter to deployments (optional)** page, select **both deployments (1)** and click **Next (2)** to continue.
+1. On the **Model deployment** page, select **both deployments (1)** and click **Next (2)** to continue.
 
     ![](./media/new/selectmodel.png)
 
-1. If you get a **Replacing existing content filter** warning, click on **Replace**.
+1. Click on **Next** once both models are selected.
 
     ![](./media/new/modelnext.png)
 
-1. Review the content filter configuration and click **Create filter** to complete the setup.
+1. Select the **Gaurdrail name** as **AggressiveContentFilter (1)** and select required controls from right pane and click on **Submit (2)**.
 
     ![](./media/new/contentname.png)
 
@@ -46,7 +44,7 @@ In this task, you will explore different flow types in Microsoft Foundry by adju
 
 In this task, you will explore different flow types in Microsoft Foundry by filtering specific words or patterns to refine search results and enhance data relevance.
 
-1. From the top menu bar, select **Blocklists (Preview) (1)** tab and then click **+ Create blocklist (2)**.
+1. From the left-pane select **Gaurdrails (1)**, select **Blocklists (2)** and click on **Create blocklist (3)**.
 
     ![](./media/new/createblocklist.png)
     
@@ -58,7 +56,7 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
 
       ![](./media/new/createblock.png)
 
-1. Click on **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject>** created.
+1. Click on **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject>** created and click on **Edit (2)**.  
 
     ![](./media/new/editblock.png)
 
@@ -66,7 +64,7 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
 
     ![](./media/new/addterm.png)
 
-1. Enter **password (1)** as the term, select the type **Exact Match (2)** or **Regex** as required, and click **Add term (3)** to save it.
+1. Select **Add terms manually (1)** as the term, enter the term **credentials (2)** select the type **Exact Match (3)** or **Regex** as required, and click **Add (4)** to save it.
 
     ![](./media/new/addingterm.png)
 
@@ -74,9 +72,9 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
 
     ![](./media/new/y10.png)
 
-1. Repeat the step for the following and select the type as required (**Exact Match** or **Regex**):-
+1. Repeat the step for the following and select the type as required (**Exact Match** or **Regex**) once all are added **(1)** and click on **Create (2)**:-
 
-    - credentials
+    - password
     - exploit
     - hack
     - keylogger

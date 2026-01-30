@@ -22,7 +22,7 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 1. In your browser window in Lab VM, navigate to the **Microsoft Foundry** portal.
 
-1. From the left navigation pane, select **Model + endpoints (1)**, then click on **+ Deploy model (2)** drop-down and click **Deploy base model (3)**.
+1. Click **Deploy base model**.
 
     ![](./media/new/newbase.png)
 
@@ -38,61 +38,23 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
     ![](./media/new/gptplay.png)
 
-1. Scroll down in the **Setup** section and expand **Add your data (1)** and select **+ Add a data source (2)**.
+1. In the **Playground**  tab of **gpt-4o** model, under **Tools** click on **Upload files**.
 
     ![](./media/new/uploadfiles.png)
 
-1. Click on the **Upload files**, provide the following details:
+1. In the **Attach files**, provide the following details:
 
-    - Select data source: Select **Upload files (preview) (1)**
+    - Vector index name: Enter **employeehandbook (1)**
 
-    - Subscription: Leave the default one **(2)**
-
-    - Select Azure Blob Storage resouce: Select the storage account that starts with **aifoundryhubxxxxxx (3)**
-
-    - Click **Turn on CORS (4)** to grant access.
-
-      ![](./media/new/browsefiles.png)
-
-    - Select Azure AI Search resource: Select **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (5)** 
-
-    - Enter the index name: Enter **employeehandbook (6)** 
- 
-    - Check the box labeled **Add vector search to this search resource (7)**
-
-    - Select an embedding model: choose **Azure OpenAi - text-embedding-ada-002 (8)** from the dropdown menu.
-
-    - Then click on **Next (9)**
-
-      ![](./media/new/attach.png)
-  
-1. Click **Browse for a file** to upload documents.
-
-    ![](./media/new/)
+    - Click on **Browse for files (2)**
   
 1. Navigate to `C:\LabFiles\ai-developer\Dotnet\src\BlazorAI\data\` and select **employee_handbook.pdf (1).** Click on **Open (2)**.
 
-    ![](./media/new/)
+    ![](./media/new/image_087.png)
 
-1. Click on **Upload files** to upload the files.
+1. Once you file is **Uploaded (1)** **Attach (2)** to upload the files.
 
-    ![](./media/new/w10.png)
-
-1. Once the upload is completed, click on **Next**.
-
-    ![](./media/new/w11.png)
-
-1. On the **Data Management** blade, select **Hybrid + semantic (1)** as the search type, keep the **default Chunk Size (1024) (2)**, and click **Next (3)** to proceed.
-
-    ![](./media/new/v2.png)
-
-1. On the **Data Connection** blade, select **API Key (1)** for authenticatio and then click on **Next (2)**.    
-
-    ![](./media/new/r1.png)
-
-1. Review the configuration and then click on **Save and close**.
-
-    ![](./media/new/r2.png)
+      ![](./media/new/attach.png)
 
 1. The data injection might take around **5** Minutes.
 

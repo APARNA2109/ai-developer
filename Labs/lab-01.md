@@ -35,7 +35,7 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     - **Region:** Enter **<inject key="Region" enableCopy="false"></inject> (4)**
 
-    - **Default project name:** Enter **ai-foundry-project-<inject key="Deployment ID" enableCopy="false"></inject>**
+    - **Default project name:** Enter **ai-foundry-project-<inject key="Deployment ID" enableCopy="false"></inject> (5)**
 
       ![](./media/foundryr.png)
 
@@ -55,7 +55,7 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     ![](./media/new/newtoggle.png)
 
-1. On the Welcome page click on **Build** from the top navigation pane.s
+1. On the Welcome page click on **Build** from the top navigation pane.
 
     ![](./media/new/foundryoverview.png)
 
@@ -63,7 +63,7 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     ![](./media/new/basemodel.png)
 
-1. Search for **gpt-4o (1)**, select the **gpt-4o (2s)** model.
+1. Search for **gpt-4o (1)**, select the **gpt-4o (2)** model.
 
     ![](./media/new/4o.png)
 
@@ -88,12 +88,6 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 1. From the top left corner navigate back to **Models** page.
 
     ![](./media/new/navigateback.png) 
-
-1. Select the listed **aifoundryhubxxxxxx** resource to continue working in **Microsoft Foundry**.
-
-    ![](./media/new/b3.png)
-
-     >**Note**: **xxxxx** refers to randomly generated suffix.
 
 1. From Models page, select **gpt-4o (1)** model and the click on **Open in Playground (2)**.
 
