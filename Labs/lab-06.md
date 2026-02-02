@@ -20,63 +20,61 @@ In this task, you will explore different flow types in Microsoft Foundry by adju
 
 1. Navigate back to the **Microsoft Foundry** portal in your browser.
 
-1. From the left navigation pane, click on **Guardrails + controls (1)**. Select **Content filters (2)** tab from the top menu bar and click **+ Create content filter (3)**.
+1. From the left navigation pane, click on **Build (1)**. Select **Gaurdrails (2)** tab from the top menu bar and click **Create (3)**.
 
-    ![](./media/new/y1.png)
+    ![](./media/new/creategaurdrails.png)
 
-1. On the **Add basic information** blade, enter the Name **AggressiveContentFilter (1)** and click on **Next (2)**:
+1. Select **Add models** 
 
-     ![](./media/new/y2.png)
+     ![](./media/new/addmodelsgaurd.png)
 
-1. Leave the **Input filter** and **Output filter** blade to default and click on **Next**.
+1. On the **Model deployment** page, select **both deployments (1)** and click **Next (2)** to continue.
 
-1. On the **Apply filter to deployments (optional)** page, select **both deployments (1)** and click **Next (2)** to continue.
+    ![](./media/new/selectmodel.png)
 
-    ![](./media/new/E6T1S5-1401.png)
+1. Click on **Next** once both models are selected.
 
-1. If you get a **Replacing existing content filter** warning, click on **Replace**.
+    ![](./media/new/modelnext.png)
 
-    ![](./media/new/y3.png)
+1. Select the **Gaurdrail name** as **AggressiveContentFilter (1)** and select required controls from right pane and click on **Submit (2)**.
 
-1. Review the content filter configuration and click **Create filter** to complete the setup.
-
-    ![](./media/new/y4.png)
+    ![](./media/new/contentname.png)
 
 ## Task 2: Filter specific words or patterns
 
 In this task, you will explore different flow types in Microsoft Foundry by filtering specific words or patterns to refine search results and enhance data relevance.
 
-1. From the top menu bar, select **Blocklists (Preview) (1)** tab and then click **+ Create blocklist (2)**.
+1. From the left-pane select **Gaurdrails (1)**, select **Blocklists (2)** and click on **Create blocklist (3)**.
 
-    ![](./media/new/y5.png)
+    ![](./media/new/createblocklist.png)
     
-1. On the **Create a blocklist** blade, specify the following configuration options and click on **Create blocklist (3)**.
+1. On the **Create a blocklist** blade, specify the following configuration options and click on **Create (3)**.
 
     - **Name**: Enter **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject> (1)**
 
     - **Description**: `This is a custom blocklist.` **(2)**
 
-      ![](./media/new/y6.png)
+      ![](./media/new/createblock.png)
 
-1. Click on **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject>** created.
+1. Click on **CustomBlocklist<inject key="Deployment ID" enableCopy="false"></inject>** created and click on **Edit (2)**.  
 
-    ![](./media/new/y7.png)
+    ![](./media/new/editblock.png)
 
-1. Fromt the top menu bar, click on **+ Add new term**.
+1. Fromt the top menu bar, click on **Add term**.
 
-    ![](./media/new/y8.png)
+    ![](./media/new/addterm.png)
 
-1. Enter **password (1)** as the term, select the type **Exact Match (2)** or **Regex** as required, and click **Add term (3)** to save it.
+1. Select **Add terms manually (1)** as the term, enter the term **credentials (2)** select the type **Exact Match (3)** or **Regex** as required, and click **Add (4)** to save it.
 
-    ![](./media/new/y9.png)
+    ![](./media/new/addingterm.png)
 
 1. Click on **+ Add new term** again.   
 
     ![](./media/new/y10.png)
 
-1. Repeat the step for the following and select the type as required (**Exact Match** or **Regex**):-
+1. Repeat the step for the following and select the type as required (**Exact Match** or **Regex**) once all are added **(1)** and click on **Create (2)**:-
 
-    - credentials
+    - password
     - exploit
     - hack
     - keylogger
@@ -89,7 +87,7 @@ In this task, you will explore different flow types in Microsoft Foundry by filt
     - poker
     - betting
 
-      ![](./media/new/y12.png)
+      ![](./media/new/addcreate.png)
 
 ## Summary
 

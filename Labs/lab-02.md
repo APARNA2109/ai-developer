@@ -39,9 +39,9 @@ In this task, you will explore different flow types in Microsoft Foundry by sett
 
 1. Navigate back to **Microsoft Foundry** portal.
 
-1. From the **Overview (1)** page, copy the **API Key (2)**, select **Azure OpenAI (3)** under Libraries, and copy the **Azure OpenAI endpoint (4)** using the copy icons. And paste it into **Notepad** to be used in the upcoming exercises
+1. From the **Models** page, select **gpt-4o (1)** model, from the right tab copy the **Target URL (2)** and **Key (3)** using the copy icons. And paste it into **Notepad** to be used in the upcoming exercises
 
-    ![](./media/new/E2T1S6-1401.png)
+    ![](./media/new/api.png)
 
 1. Perform the further steps based on your preferred programming language:
 

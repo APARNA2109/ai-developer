@@ -12,7 +12,9 @@ In this exercise, you will complete the following tasks:
 
 - Task 1: Deploy a Text Embedding model
 
-- Task 2: Create a Semantic Search Plugin to query the AI Search Index
+- Task 2: Create Azure AI Search
+
+- Task 3: Create a Semantic Search Plugin to query the AI Search Index
 
 ## Task 1: Deploy a Text Embedding model
 
@@ -20,77 +22,39 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 1. In your browser window in Lab VM, navigate to the **Microsoft Foundry** portal.
 
-1. From the left navigation pane, select **Model + endpoints (1)**, then click on **+ Deploy model (2)** drop-down and click **Deploy base model (3)**.
+1. Click **Deploy base model**.
 
-    ![](./media/new/E5T1S2-1401.png)
+    ![](./media/new/newbase.png)
 
-1. Search for **text-embedding-ada-002 (1)**, select **text-embedding-ada-002 (2)** model, and click on **Confirm (3)**.
+1. Search for **text-embedding-ada-002 (1)**, select **text-embedding-ada-002 (2)** model..
 
-    ![](./media/new/w2.png)
+    ![](./media/new/ada002.png)
 
-1. Click on **Deploy** to the model.
+1. Click on **Deploy (1)** drop-down and select **Default settings (2)** to deploy the model.
 
-    ![](./media/new/w3.png)
+    ![](./media/new/adadsteps.png)
 
-1. Navigate back to **Models+endpoints (1)**, select **gpt-4o (2)**, and click on **Open in playground (3)**.
+1. Navigate back to **Models** pages, select **gpt-4o (1)**, and click on **Open in playground (2)**.
 
-    ![](./media/new/w4.png)
+    ![](./media/new/gptplay.png)
 
-1. Scroll down in the **Setup** section and expand **Add your data (1)** and select **+ Add a data source (2)**.
+1. In the **Playground**  tab of **gpt-4o** model, under **Tools** click on **Upload files**.
 
-    ![](./media/new/w5.png)
+    ![](./media/new/uploadfiles.png)
 
-1. On the **Select or add data source**blade, provide the following details:
+1. In the **Attach files**, provide the following details:
 
-    - Select data source: Select **Upload files (preview) (1)**
+    - Vector index name: Enter **employeehandbook (1)**
 
-    - Subscription: Leave the default one **(2)**
-
-    - Select Azure Blob Storage resouce: Select the storage account that starts with **aifoundryhubxxxxxx (3)**
-
-    - Click **Turn on CORS (4)** to grant access.
-
-      ![](./media/new/w6.png)
-
-    - Select Azure AI Search resource: Select **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (5)** 
-
-    - Enter the index name: Enter **employeehandbook (6)** 
- 
-    - Check the box labeled **Add vector search to this search resource (7)**
-
-    - Select an embedding model: choose **Azure OpenAi - text-embedding-ada-002 (8)** from the dropdown menu.
-
-    - Then click on **Next (9)**
-
-      ![](./media/new/v1.png)
-  
-1. Click **Browse for a file** to upload documents.
-
-    ![](./media/new/w8.png)
+    - Click on **Browse for files (2)**
   
 1. Navigate to `C:\LabFiles\ai-developer\Dotnet\src\BlazorAI\data\` and select **employee_handbook.pdf (1).** Click on **Open (2)**.
 
-    ![](./media/image_087.png)
+    ![](./media/new/image_087.png)
 
-1. Click on **Upload files** to upload the files.
+1. Once you file is **Uploaded (1)** **Attach (2)** to upload the files.
 
-    ![](./media/new/w10.png)
-
-1. Once the upload is completed, click on **Next**.
-
-    ![](./media/new/w11.png)
-
-1. On the **Data Management** blade, select **Hybrid + semantic (1)** as the search type, keep the **default Chunk Size (1024) (2)**, and click **Next (3)** to proceed.
-
-    ![](./media/new/v2.png)
-
-1. On the **Data Connection** blade, select **API Key (1)** for authenticatio and then click on **Next (2)**.    
-
-    ![](./media/new/r1.png)
-
-1. Review the configuration and then click on **Save and close**.
-
-    ![](./media/new/r2.png)
+      ![](./media/new/attach.png)
 
 1. The data injection might take around **5** Minutes.
 
@@ -119,7 +83,39 @@ In this task, you will explore different flow types in Microsoft Foundry by depl
 
 <validation step="aba3f1c2-bf55-4ca3-baf6-fcaa280552fa" />
 
-## Task 2: Create a Semantic Search Plugin to query the AI Search Index
+## Task 2: Create Azure AI Search
+
+In this task ,you will create an Azure AI Search resource.
+
+1. On the Azure portal search bar, search for **AI Search (1)** and select **AI Search (2)** from the results.
+
+    ![](./media/new/c1.png)
+
+1. From the left navigation pane, ensure **AI Search (1)** is selected and then click on **+ Create (2)** from the top menu bar.
+
+    ![](./media/new/c2.png)
+
+1. On the **Create a search service** page, provide the following details and then click on **Review+create (6)**:
+
+    - **Subscription:** Leave the default one **(1)**
+
+    - **Resource group:** Select **ai-foundry-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
+
+    - **Service name:** Enter **ai-search-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
+
+    - **Region:** Select **<inject key="Region" enableCopy="false"></inject> (4)** 
+
+    - Pricing tier: Select **Standard (5)**
+
+        >**Note:** In case you do not see the Standard tier, it means that the region selected does not have the Standard tier available right now. Please select another region and deploy the resource.
+
+      ![](./media/new/aisearch-1401.png)
+
+1. Click **Create** to deploy the search service.
+
+    ![](./media/new/aisearch-1501.png)
+
+## Task 3: Create a Semantic Search Plugin to query the AI Search Index
 
 In this task, you will explore different flow types in Microsoft Foundry by creating a Semantic Search Plugin to query the AI Search Index for enhanced retrieval capabilities.
 
