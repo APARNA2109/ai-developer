@@ -557,7 +557,7 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
     Longitude: -82.458444 
     ```
 
-    ![](./media/sk32.png)
+    ![](./media/new/ai3.png)
 
 </details>
 
