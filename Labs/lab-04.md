@@ -109,6 +109,15 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 <details>
 <summary><strong>C Sharp(C#)</strong></summary>
 
+1. Right click on `Dotnet>src>Aspire>Aspire.AppHost` **(1)** in the left pane and select **Open in Integrated Terminal (2)**.
+
+    ![](./media/new/e2.png)
+
+1. Use the following command to run the app:
+    ```
+    dotnet run
+    ```
+
 1. You can review the OpenAPI spec in the following path:
     ```
     http://localhost:5115/swagger/v1/swagger.json
