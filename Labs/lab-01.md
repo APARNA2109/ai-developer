@@ -92,13 +92,13 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
 
     - **Deployment type**: Choose **Standard (1)** 
     
-    - **Model version**: Select **2024-08-06 (Default) (2)**
+    - **Model version**: Select **2024-11-20 (2)**
 
     - **Tokens per Minute Rate Limit**: Limit to **50K (3)** (You can use keyboard arrows to increase or decrease the value)
 
     - Click on **Connect and deploy (4)**
 
-      ![](./media/new/b1.png) 
+      ![](./media/new/ai1.png) 
 
 1. From the top, click on **Microsoft Foundry**.
 
