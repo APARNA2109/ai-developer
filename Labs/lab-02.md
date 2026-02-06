@@ -172,7 +172,7 @@ In this task, you will explore different flow types in Microsoft Foundry by upda
     test@gmail.com
     ```
 
-    ![](./media/image_036.png)
+    ![](./media/new/ai2.png)
 
 1. If the app does not open automatically in the browser, you can access it using the following **URL**:
 
