@@ -51,7 +51,7 @@ In this task, you will explore different flow types in Microsoft Foundry by crea
     ```
     http://localhost:8501
     ```
-1. Select **Multi-Agent (1)** on the left-hand side pane.
+1. Select **Multi-Agent** on the left-hand side pane.
 
     ![](./media/new/z1.png)
 
